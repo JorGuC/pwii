@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background-image: url('../imagenes/img1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #b72451;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 4px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #b72451;
+}
+
+#btnEditar {
+    background-color: #3f2f3c;
+}
+
+#btnEliminar {
+    background-color: #b72451;
+}
+
+#btnAgregar {
+    width: 20%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #df7db7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#divAgregar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#divFormulario {
+    width: 40%;
+    background-color: #df7db7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 20px 0;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+input {
+    width: 90%;
+}
+
+.divPadre {
+    width: 100%;
+    display: flex;
+}
+
+.etiqueta {
+    width: 20%;
+}
+
+.txtDiv {
+    width: 80%;
+}
+
+.divBtn {
+    text-align: end;
+}
+
